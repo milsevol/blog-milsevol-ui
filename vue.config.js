@@ -1,6 +1,10 @@
-// const path = require('path')
+const path = require('path')
 // 当前是否是开发环境
 // const debug = process.env.NODE_ENV !== 'production'
+const name = 'milsevol小虫架构' // 标题
+function resolve (dir) {
+  return path.join(__dirname, dir)
+}
 
 module.exports = {
   // 部署应用包时的基本URL
@@ -28,6 +32,14 @@ module.exports = {
     https: false,
     hotOnly: false,
     proxy: null
+  },
+  configureWebpack: {
+    name: name,
+    resolve: {
+      alias: {
+        '@': resolve('src')
+      }
+    }
   },
   // 第三方插件配置
   pluginOptions: {}
