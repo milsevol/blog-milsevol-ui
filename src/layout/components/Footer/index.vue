@@ -40,13 +40,13 @@
                         </div>
                         <div style="float: left;width: 47%;">
                             <div class="item">
-                                <a href="/about_us" class="item">官方技术交流QQ群：830782254</a>
+                                <a href="/about_us" class="item">官方技术交流QQ群：8302254</a>
                             </div>
                             <div class="item">
                                 <a href="/about_us" class="item">git@oschina.cn码云Gitee</a>
                             </div>
                             <div class="item">
-                                <a href="/about_us" class="item">企业版售前及售后使用咨询：400-606-0201</a>
+                                <a href="/about_us" class="item">企业版售前及售后使用咨询：4006-0201</a>
                             </div>
                         </div>
                     </div>
