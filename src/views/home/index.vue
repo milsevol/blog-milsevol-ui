@@ -2,7 +2,13 @@
     <div>
        <div class="content-body-left-top">
                         <div class="content-body-left-banner">
-                            <img style="width: 100%;height: 100%;" src="http://img.didispace.com/FqGHEAkrU7ZoSS2gb1Ax8N2-Zzx0" data-holder-rendered="true">
+                             <el-carousel height="400px" indicator-position="outside">
+                            <el-carousel-item v-for="item in 4" :key="item">
+                                    <el-image
+                                    src="https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg"
+                                    fit="fill"></el-image>
+                            </el-carousel-item>
+                           </el-carousel>
                         </div>
                         <div class="content-body-left-recent">
                             <div class="model-card">
@@ -439,3 +445,7 @@
     </div>
                 
 </template>
+
+<style lang="less">
+
+</style>
