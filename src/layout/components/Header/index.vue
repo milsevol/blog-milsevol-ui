@@ -44,6 +44,11 @@ export default {
                 "id":"3",
                 "menuName": "时间轴",
                 "menuUrl": "/timeline"
+            },
+             {
+                "id":"4",
+                "menuName": "分类",
+                "menuUrl": "/category"
             }
         ]
       },

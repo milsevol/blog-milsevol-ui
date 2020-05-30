@@ -27,6 +27,11 @@ const routes = [
         path: 'timeline',
         component: () => import('@/views/timeline/index'),
         name: '时间轴'
+      },
+      {
+        path: 'category',
+        component: () => import('@/views/category/index'),
+        name: '分类'
       }
     ]
   }
